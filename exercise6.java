@@ -14,7 +14,7 @@ public class exercise6 {
 		
 		leapYear = userYear%100; 
 		
-		if(leapYear == 0)
+		if(leapYear == 1)
 		{
 			leapYear = userYear%400; 
 			if (leapYear == 0)
