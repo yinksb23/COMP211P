@@ -15,7 +15,7 @@ public class exercise3 {
 		System.out.println("How many years have you been with the company? ");
 		int yearsWithCom = input.nextInt();
 		
-		if (yearsWithCom >= 10 && yearsWithCom < 20)
+		if (yearsWithCom >= 10 && yearsWithCom < 10)
 		{
 			totalBonus = baseBonus + addBonus10; 
 			System.out.println("You will receive a Christmas bonus of " + totalBonus + " pounds");
